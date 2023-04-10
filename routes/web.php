@@ -40,7 +40,6 @@ Route::middleware('can:user-higher')
     Route::get('index', function () {
         dd('user');
     });
-
 });
 
 Route::controller(LivewireTestController¥::class)->prefix('livewire-test')->group(function(){

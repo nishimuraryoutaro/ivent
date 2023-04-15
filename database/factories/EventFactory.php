@@ -15,10 +15,7 @@ class EventFactory extends Factory
      * @return array<string, mixed>
      */
     public function definition()
-    {
-
-
-
+    {   //fakerでダミーデータを追加
         $dummyDate = $this->faker->dateTimeThisMonth;
 
         return [
